@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3492E35D1588B5B800C3BB58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E35C1588B5B800C3BB58 /* UIKit.framework */; };
+		3492E35F1588B5B800C3BB58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E35E1588B5B800C3BB58 /* Foundation.framework */; };
+		3492E3611588B5B800C3BB58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E3601588B5B800C3BB58 /* CoreGraphics.framework */; };
+		3492E3631588B5B800C3BB58 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E3621588B5B800C3BB58 /* CoreData.framework */; };
+		3492E3691588B5B800C3BB58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3492E3671588B5B800C3BB58 /* InfoPlist.strings */; };
+		3492E36B1588B5B800C3BB58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E36A1588B5B800C3BB58 /* main.m */; };
+		3492E36F1588B5B800C3BB58 /* comAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E36E1588B5B800C3BB58 /* comAppDelegate.m */; };
+		3492E3721588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3701588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodeld */; };
+		3492E3751588B5B800C3BB58 /* comMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3741588B5B800C3BB58 /* comMasterViewController.m */; };
+		3492E3781588B5B800C3BB58 /* comDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3771588B5B800C3BB58 /* comDetailViewController.m */; };
+		3492E37B1588B5B800C3BB58 /* comMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E3791588B5B800C3BB58 /* comMasterViewController_iPhone.xib */; };
+		3492E37E1588B5B800C3BB58 /* comMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E37C1588B5B800C3BB58 /* comMasterViewController_iPad.xib */; };
+		3492E3811588B5B800C3BB58 /* comDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E37F1588B5B800C3BB58 /* comDetailViewController_iPhone.xib */; };
+		3492E3841588B5B800C3BB58 /* comDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E3821588B5B800C3BB58 /* comDetailViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3492E3581588B5B800C3BB58 /* HeliosGreenGadget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeliosGreenGadget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3492E35C1588B5B800C3BB58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3492E35E1588B5B800C3BB58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3492E3601588B5B800C3BB58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3492E3621588B5B800C3BB58 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3492E3661588B5B800C3BB58 /* HeliosGreenGadget-Info.plist */ = {isa = PBXFileReference; path = "HeliosGreenGadget-Info.plist"; sourceTree = "<group>"; };
+		3492E3681588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3492E36A1588B5B800C3BB58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3492E36C1588B5B800C3BB58 /* HeliosGreenGadget-Prefix.pch */ = {isa = PBXFileReference; path = "HeliosGreenGadget-Prefix.pch"; sourceTree = "<group>"; };
+		3492E36D1588B5B800C3BB58 /* comAppDelegate.h */ = {isa = PBXFileReference; path = comAppDelegate.h; sourceTree = "<group>"; };
+		3492E36E1588B5B800C3BB58 /* comAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comAppDelegate.m; sourceTree = "<group>"; };
+		3492E3711588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeliosGreenGadget.xcdatamodel; sourceTree = "<group>"; };
+		3492E3731588B5B800C3BB58 /* comMasterViewController.h */ = {isa = PBXFileReference; path = comMasterViewController.h; sourceTree = "<group>"; };
+		3492E3741588B5B800C3BB58 /* comMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comMasterViewController.m; sourceTree = "<group>"; };
+		3492E3761588B5B800C3BB58 /* comDetailViewController.h */ = {isa = PBXFileReference; path = comDetailViewController.h; sourceTree = "<group>"; };
+		3492E3771588B5B800C3BB58 /* comDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comDetailViewController.m; sourceTree = "<group>"; };
+		3492E37A1588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		3492E37D1588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		3492E3801588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		3492E3831588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comDetailViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3492E3551588B5B800C3BB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3492E35D1588B5B800C3BB58 /* UIKit.framework in Frameworks */,
+				3492E35F1588B5B800C3BB58 /* Foundation.framework in Frameworks */,
+				3492E3611588B5B800C3BB58 /* CoreGraphics.framework in Frameworks */,
+				3492E3631588B5B800C3BB58 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3492E34D1588B5B800C3BB58 = {
+			isa = PBXGroup;
+			children = (
+				3492E3641588B5B800C3BB58 /* HeliosGreenGadget */,
+				3492E35B1588B5B800C3BB58 /* Frameworks */,
+				3492E3591588B5B800C3BB58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3492E3591588B5B800C3BB58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3492E3581588B5B800C3BB58 /* HeliosGreenGadget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3492E35B1588B5B800C3BB58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3492E35C1588B5B800C3BB58 /* UIKit.framework */,
+				3492E35E1588B5B800C3BB58 /* Foundation.framework */,
+				3492E3601588B5B800C3BB58 /* CoreGraphics.framework */,
+				3492E3621588B5B800C3BB58 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3492E3641588B5B800C3BB58 /* HeliosGreenGadget */ = {
+			isa = PBXGroup;
+			children = (
+				3492E36D1588B5B800C3BB58 /* comAppDelegate.h */,
+				3492E36E1588B5B800C3BB58 /* comAppDelegate.m */,
+				3492E3731588B5B800C3BB58 /* comMasterViewController.h */,
+				3492E3741588B5B800C3BB58 /* comMasterViewController.m */,
+				3492E3761588B5B800C3BB58 /* comDetailViewController.h */,
+				3492E3771588B5B800C3BB58 /* comDetailViewController.m */,
+				3492E3791588B5B800C3BB58 /* comMasterViewController_iPhone.xib */,
+				3492E37C1588B5B800C3BB58 /* comMasterViewController_iPad.xib */,
+				3492E37F1588B5B800C3BB58 /* comDetailViewController_iPhone.xib */,
+				3492E3821588B5B800C3BB58 /* comDetailViewController_iPad.xib */,
+				3492E3701588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodeld */,
+				3492E3651588B5B800C3BB58 /* Supporting Files */,
+			);
+			path = HeliosGreenGadget;
+			sourceTree = "<group>";
+		};
+		3492E3651588B5B800C3BB58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3492E3661588B5B800C3BB58 /* HeliosGreenGadget-Info.plist */,
+				3492E3671588B5B800C3BB58 /* InfoPlist.strings */,
+				3492E36A1588B5B800C3BB58 /* main.m */,
+				3492E36C1588B5B800C3BB58 /* HeliosGreenGadget-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3492E3571588B5B800C3BB58 /* HeliosGreenGadget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3492E3871588B5B800C3BB58 /* Build configuration list for PBXNativeTarget "HeliosGreenGadget" */;
+			buildPhases = (
+				3492E3541588B5B800C3BB58 /* Sources */,
+				3492E3551588B5B800C3BB58 /* Frameworks */,
+				3492E3561588B5B800C3BB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeliosGreenGadget;
+			productName = HeliosGreenGadget;
+			productReference = 3492E3581588B5B800C3BB58 /* HeliosGreenGadget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3492E34F1588B5B800C3BB58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = com;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3492E3521588B5B800C3BB58 /* Build configuration list for PBXProject "HeliosGreenGadget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3492E34D1588B5B800C3BB58;
+			productRefGroup = 3492E3591588B5B800C3BB58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3492E3571588B5B800C3BB58 /* HeliosGreenGadget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3492E3561588B5B800C3BB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3492E3691588B5B800C3BB58 /* InfoPlist.strings in Resources */,
+				3492E37B1588B5B800C3BB58 /* comMasterViewController_iPhone.xib in Resources */,
+				3492E37E1588B5B800C3BB58 /* comMasterViewController_iPad.xib in Resources */,
+				3492E3811588B5B800C3BB58 /* comDetailViewController_iPhone.xib in Resources */,
+				3492E3841588B5B800C3BB58 /* comDetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3492E3541588B5B800C3BB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3492E36B1588B5B800C3BB58 /* main.m in Sources */,
+				3492E36F1588B5B800C3BB58 /* comAppDelegate.m in Sources */,
+				3492E3721588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodeld in Sources */,
+				3492E3751588B5B800C3BB58 /* comMasterViewController.m in Sources */,
+				3492E3781588B5B800C3BB58 /* comDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3492E3671588B5B800C3BB58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3492E3681588B5B800C3BB58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3492E3791588B5B800C3BB58 /* comMasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3492E37A1588B5B800C3BB58 /* en */,
+			);
+			name = comMasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3492E37C1588B5B800C3BB58 /* comMasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3492E37D1588B5B800C3BB58 /* en */,
+			);
+			name = comMasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		3492E37F1588B5B800C3BB58 /* comDetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3492E3801588B5B800C3BB58 /* en */,
+			);
+			name = comDetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3492E3821588B5B800C3BB58 /* comDetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3492E3831588B5B800C3BB58 /* en */,
+			);
+			name = comDetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3492E3851588B5B800C3BB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3492E3861588B5B800C3BB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3492E3881588B5B800C3BB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeliosGreenGadget/HeliosGreenGadget-Prefix.pch";
+				INFOPLIST_FILE = "HeliosGreenGadget/HeliosGreenGadget-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3492E3891588B5B800C3BB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeliosGreenGadget/HeliosGreenGadget-Prefix.pch";
+				INFOPLIST_FILE = "HeliosGreenGadget/HeliosGreenGadget-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3492E3521588B5B800C3BB58 /* Build configuration list for PBXProject "HeliosGreenGadget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3492E3851588B5B800C3BB58 /* Debug */,
+				3492E3861588B5B800C3BB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3492E3871588B5B800C3BB58 /* Build configuration list for PBXNativeTarget "HeliosGreenGadget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3492E3881588B5B800C3BB58 /* Debug */,
+				3492E3891588B5B800C3BB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3492E3701588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3492E3711588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodel */,
+			);
+			currentVersion = 3492E3711588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodel */;
+			path = HeliosGreenGadget.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3492E34F1588B5B800C3BB58 /* Project object */;
+}
