@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3474BE181589E42300C7034B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3474BE1A1589E42300C7034B /* Localizable.strings */; };
+		3474BE1D1589E46100C7034B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3474BE1C1589E46100C7034B /* Settings.bundle */; };
 		3492E35D1588B5B800C3BB58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E35C1588B5B800C3BB58 /* UIKit.framework */; };
 		3492E35F1588B5B800C3BB58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E35E1588B5B800C3BB58 /* Foundation.framework */; };
 		3492E3611588B5B800C3BB58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E3601588B5B800C3BB58 /* CoreGraphics.framework */; };
@@ -59,6 +61,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3474BE191589E42300C7034B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3474BE1B1589E42B00C7034B /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3474BE1C1589E46100C7034B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		3492E3581588B5B800C3BB58 /* HeliosGreenGadget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeliosGreenGadget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3492E35C1588B5B800C3BB58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3492E35E1588B5B800C3BB58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -231,6 +236,8 @@
 				3492E3671588B5B800C3BB58 /* InfoPlist.strings */,
 				3492E36A1588B5B800C3BB58 /* main.m */,
 				3492E36C1588B5B800C3BB58 /* HeliosGreenGadget-Prefix.pch */,
+				3474BE1A1589E42300C7034B /* Localizable.strings */,
+				3474BE1C1589E46100C7034B /* Settings.bundle */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -375,6 +382,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				cs,
 			);
 			mainGroup = 3492E34D1588B5B800C3BB58;
 			productRefGroup = 3492E3591588B5B800C3BB58 /* Products */;
@@ -396,6 +404,8 @@
 				3492E37E1588B5B800C3BB58 /* comMasterViewController_iPad.xib in Resources */,
 				3492E3811588B5B800C3BB58 /* comDetailViewController_iPhone.xib in Resources */,
 				3492E3841588B5B800C3BB58 /* comDetailViewController_iPad.xib in Resources */,
+				3474BE181589E42300C7034B /* Localizable.strings in Resources */,
+				3474BE1D1589E46100C7034B /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +459,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3474BE1A1589E42300C7034B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3474BE191589E42300C7034B /* en */,
+				3474BE1B1589E42B00C7034B /* cs */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		3492E3671588B5B800C3BB58 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -587,6 +606,7 @@
 				3492E3891588B5B800C3BB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
