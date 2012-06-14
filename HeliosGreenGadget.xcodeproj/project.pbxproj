@@ -21,6 +21,41 @@
 		3492E37E1588B5B800C3BB58 /* comMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E37C1588B5B800C3BB58 /* comMasterViewController_iPad.xib */; };
 		3492E3811588B5B800C3BB58 /* comDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E37F1588B5B800C3BB58 /* comDetailViewController_iPhone.xib */; };
 		3492E3841588B5B800C3BB58 /* comDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E3821588B5B800C3BB58 /* comDetailViewController_iPad.xib */; };
+		3492E3CD1589C91C00C3BB58 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3941589C91C00C3BB58 /* NSData+Base64.m */; };
+		3492E3CE1589C91C00C3BB58 /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3961589C91C00C3BB58 /* NSMutableArray+Soap.m */; };
+		3492E3CF1589C91C00C3BB58 /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3981589C91C00C3BB58 /* Soap.m */; };
+		3492E3D01589C91C00C3BB58 /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E39A1589C91C00C3BB58 /* SoapArray.m */; };
+		3492E3D11589C91C00C3BB58 /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E39D1589C91C00C3BB58 /* SoapFault.m */; };
+		3492E3D21589C91C00C3BB58 /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E39F1589C91C00C3BB58 /* SoapHandler.m */; };
+		3492E3D31589C91C00C3BB58 /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3A11589C91C00C3BB58 /* SoapLiteral.m */; };
+		3492E3D41589C91C00C3BB58 /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3A31589C91C00C3BB58 /* SoapNil.m */; };
+		3492E3D51589C91C00C3BB58 /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3A51589C91C00C3BB58 /* SoapObject.m */; };
+		3492E3D61589C91C00C3BB58 /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3A71589C91C00C3BB58 /* SoapParameter.m */; };
+		3492E3D71589C91C00C3BB58 /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3A91589C91C00C3BB58 /* SoapReachability.m */; };
+		3492E3D81589C91C00C3BB58 /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3AB1589C91C00C3BB58 /* SoapRequest.m */; };
+		3492E3D91589C91C00C3BB58 /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3AD1589C91C00C3BB58 /* SoapService.m */; };
+		3492E3DA1589C91C00C3BB58 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3B01589C91C00C3BB58 /* CTidy.m */; };
+		3492E3DB1589C91C00C3BB58 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3B21589C91C00C3BB58 /* CXHTMLDocument.m */; };
+		3492E3DC1589C91C00C3BB58 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3B41589C91C00C3BB58 /* CXMLDocument.m */; };
+		3492E3DD1589C91C00C3BB58 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3B61589C91C00C3BB58 /* CXMLDocument_CreationExtensions.m */; };
+		3492E3DE1589C91C00C3BB58 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3B81589C91C00C3BB58 /* CXMLDocument_PrivateExtensions.m */; };
+		3492E3DF1589C91C00C3BB58 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3BA1589C91C00C3BB58 /* CXMLElement.m */; };
+		3492E3E01589C91C00C3BB58 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3BC1589C91C00C3BB58 /* CXMLElement_CreationExtensions.m */; };
+		3492E3E11589C91C00C3BB58 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3BE1589C91C00C3BB58 /* CXMLElement_ElementTreeExtensions.m */; };
+		3492E3E21589C91C00C3BB58 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3C01589C91C00C3BB58 /* CXMLNamespaceNode.m */; };
+		3492E3E31589C91C00C3BB58 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3C21589C91C00C3BB58 /* CXMLNode.m */; };
+		3492E3E41589C91C00C3BB58 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3C41589C91C00C3BB58 /* CXMLNode_CreationExtensions.m */; };
+		3492E3E51589C91C00C3BB58 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3C61589C91C00C3BB58 /* CXMLNode_PrivateExtensions.m */; };
+		3492E3E61589C91C00C3BB58 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3C81589C91C00C3BB58 /* CXMLNode_XPathExtensions.m */; };
+		3492E4081589CE4700C3BB58 /* GetRedirectData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3FC1589CE4700C3BB58 /* GetRedirectData.m */; };
+		3492E4091589CE4700C3BB58 /* GetRedirectServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3FE1589CE4700C3BB58 /* GetRedirectServices.m */; };
+		3492E40A1589CE4700C3BB58 /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E4001589CE4700C3BB58 /* Soap+Prefix.m */; };
+		3492E40B1589CE4700C3BB58 /* GetServiceServiceGate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E4031589CE4700C3BB58 /* GetServiceServiceGate.m */; };
+		3492E40C1589CE4700C3BB58 /* GetServiceServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E4051589CE4700C3BB58 /* GetServiceServices.m */; };
+		3492E40D1589CE4700C3BB58 /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E4071589CE4700C3BB58 /* Soap+Prefix.m */; };
+		3492E4161589D12100C3BB58 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E4151589D12100C3BB58 /* libxml2.dylib */; };
+		3492E4181589D43100C3BB58 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E4171589D43100C3BB58 /* CFNetwork.framework */; };
+		3492E41A1589D47C00C3BB58 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E4191589D47C00C3BB58 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,21 +64,95 @@
 		3492E35E1588B5B800C3BB58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3492E3601588B5B800C3BB58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3492E3621588B5B800C3BB58 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		3492E3661588B5B800C3BB58 /* HeliosGreenGadget-Info.plist */ = {isa = PBXFileReference; path = "HeliosGreenGadget-Info.plist"; sourceTree = "<group>"; };
+		3492E3661588B5B800C3BB58 /* HeliosGreenGadget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeliosGreenGadget-Info.plist"; sourceTree = "<group>"; };
 		3492E3681588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3492E36A1588B5B800C3BB58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3492E36C1588B5B800C3BB58 /* HeliosGreenGadget-Prefix.pch */ = {isa = PBXFileReference; path = "HeliosGreenGadget-Prefix.pch"; sourceTree = "<group>"; };
-		3492E36D1588B5B800C3BB58 /* comAppDelegate.h */ = {isa = PBXFileReference; path = comAppDelegate.h; sourceTree = "<group>"; };
+		3492E36C1588B5B800C3BB58 /* HeliosGreenGadget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeliosGreenGadget-Prefix.pch"; sourceTree = "<group>"; };
+		3492E36D1588B5B800C3BB58 /* comAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comAppDelegate.h; sourceTree = "<group>"; };
 		3492E36E1588B5B800C3BB58 /* comAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comAppDelegate.m; sourceTree = "<group>"; };
 		3492E3711588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeliosGreenGadget.xcdatamodel; sourceTree = "<group>"; };
-		3492E3731588B5B800C3BB58 /* comMasterViewController.h */ = {isa = PBXFileReference; path = comMasterViewController.h; sourceTree = "<group>"; };
+		3492E3731588B5B800C3BB58 /* comMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comMasterViewController.h; sourceTree = "<group>"; };
 		3492E3741588B5B800C3BB58 /* comMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comMasterViewController.m; sourceTree = "<group>"; };
-		3492E3761588B5B800C3BB58 /* comDetailViewController.h */ = {isa = PBXFileReference; path = comDetailViewController.h; sourceTree = "<group>"; };
+		3492E3761588B5B800C3BB58 /* comDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comDetailViewController.h; sourceTree = "<group>"; };
 		3492E3771588B5B800C3BB58 /* comDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comDetailViewController.m; sourceTree = "<group>"; };
 		3492E37A1588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comMasterViewController_iPhone.xib; sourceTree = "<group>"; };
 		3492E37D1588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comMasterViewController_iPad.xib; sourceTree = "<group>"; };
 		3492E3801588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comDetailViewController_iPhone.xib; sourceTree = "<group>"; };
 		3492E3831588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		3492E3931589C91C00C3BB58 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		3492E3941589C91C00C3BB58 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		3492E3951589C91C00C3BB58 /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
+		3492E3961589C91C00C3BB58 /* NSMutableArray+Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Soap.m"; sourceTree = "<group>"; };
+		3492E3971589C91C00C3BB58 /* Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soap.h; sourceTree = "<group>"; };
+		3492E3981589C91C00C3BB58 /* Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soap.m; sourceTree = "<group>"; };
+		3492E3991589C91C00C3BB58 /* SoapArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapArray.h; sourceTree = "<group>"; };
+		3492E39A1589C91C00C3BB58 /* SoapArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapArray.m; sourceTree = "<group>"; };
+		3492E39B1589C91C00C3BB58 /* SoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDelegate.h; sourceTree = "<group>"; };
+		3492E39C1589C91C00C3BB58 /* SoapFault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapFault.h; sourceTree = "<group>"; };
+		3492E39D1589C91C00C3BB58 /* SoapFault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapFault.m; sourceTree = "<group>"; };
+		3492E39E1589C91C00C3BB58 /* SoapHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapHandler.h; sourceTree = "<group>"; };
+		3492E39F1589C91C00C3BB58 /* SoapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapHandler.m; sourceTree = "<group>"; };
+		3492E3A01589C91C00C3BB58 /* SoapLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapLiteral.h; sourceTree = "<group>"; };
+		3492E3A11589C91C00C3BB58 /* SoapLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapLiteral.m; sourceTree = "<group>"; };
+		3492E3A21589C91C00C3BB58 /* SoapNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNil.h; sourceTree = "<group>"; };
+		3492E3A31589C91C00C3BB58 /* SoapNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNil.m; sourceTree = "<group>"; };
+		3492E3A41589C91C00C3BB58 /* SoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapObject.h; sourceTree = "<group>"; };
+		3492E3A51589C91C00C3BB58 /* SoapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapObject.m; sourceTree = "<group>"; };
+		3492E3A61589C91C00C3BB58 /* SoapParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapParameter.h; sourceTree = "<group>"; };
+		3492E3A71589C91C00C3BB58 /* SoapParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapParameter.m; sourceTree = "<group>"; };
+		3492E3A81589C91C00C3BB58 /* SoapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapReachability.h; sourceTree = "<group>"; };
+		3492E3A91589C91C00C3BB58 /* SoapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapReachability.m; sourceTree = "<group>"; };
+		3492E3AA1589C91C00C3BB58 /* SoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapRequest.h; sourceTree = "<group>"; };
+		3492E3AB1589C91C00C3BB58 /* SoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapRequest.m; sourceTree = "<group>"; };
+		3492E3AC1589C91C00C3BB58 /* SoapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapService.h; sourceTree = "<group>"; };
+		3492E3AD1589C91C00C3BB58 /* SoapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapService.m; sourceTree = "<group>"; };
+		3492E3AF1589C91C00C3BB58 /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		3492E3B01589C91C00C3BB58 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		3492E3B11589C91C00C3BB58 /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXHTMLDocument.h; sourceTree = "<group>"; };
+		3492E3B21589C91C00C3BB58 /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXHTMLDocument.m; sourceTree = "<group>"; };
+		3492E3B31589C91C00C3BB58 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		3492E3B41589C91C00C3BB58 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		3492E3B51589C91C00C3BB58 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		3492E3B61589C91C00C3BB58 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		3492E3B71589C91C00C3BB58 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		3492E3B81589C91C00C3BB58 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		3492E3B91589C91C00C3BB58 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		3492E3BA1589C91C00C3BB58 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		3492E3BB1589C91C00C3BB58 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		3492E3BC1589C91C00C3BB58 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		3492E3BD1589C91C00C3BB58 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		3492E3BE1589C91C00C3BB58 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		3492E3BF1589C91C00C3BB58 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		3492E3C01589C91C00C3BB58 /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		3492E3C11589C91C00C3BB58 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		3492E3C21589C91C00C3BB58 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		3492E3C31589C91C00C3BB58 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		3492E3C41589C91C00C3BB58 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		3492E3C51589C91C00C3BB58 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		3492E3C61589C91C00C3BB58 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		3492E3C71589C91C00C3BB58 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		3492E3C81589C91C00C3BB58 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		3492E3C91589C91C00C3BB58 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		3492E3FB1589CE4700C3BB58 /* GetRedirectData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetRedirectData.h; sourceTree = "<group>"; };
+		3492E3FC1589CE4700C3BB58 /* GetRedirectData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetRedirectData.m; sourceTree = "<group>"; };
+		3492E3FD1589CE4700C3BB58 /* GetRedirectServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetRedirectServices.h; sourceTree = "<group>"; };
+		3492E3FE1589CE4700C3BB58 /* GetRedirectServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetRedirectServices.m; sourceTree = "<group>"; };
+		3492E3FF1589CE4700C3BB58 /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
+		3492E4001589CE4700C3BB58 /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
+		3492E4021589CE4700C3BB58 /* GetServiceServiceGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetServiceServiceGate.h; sourceTree = "<group>"; };
+		3492E4031589CE4700C3BB58 /* GetServiceServiceGate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetServiceServiceGate.m; sourceTree = "<group>"; };
+		3492E4041589CE4700C3BB58 /* GetServiceServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetServiceServices.h; sourceTree = "<group>"; };
+		3492E4051589CE4700C3BB58 /* GetServiceServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetServiceServices.m; sourceTree = "<group>"; };
+		3492E4061589CE4700C3BB58 /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
+		3492E4071589CE4700C3BB58 /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
+		3492E4101589CEFD00C3BB58 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = /Users/damekjan74/Desktop/HeliosGreenGadget/HeliosGreenGadget/cs.lproj/comMasterViewController_iPad.xib; sourceTree = "<absolute>"; };
+		3492E4111589CEFD00C3BB58 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = /Users/damekjan74/Desktop/HeliosGreenGadget/HeliosGreenGadget/cs.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		3492E4121589CEFD00C3BB58 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = /Users/damekjan74/Desktop/HeliosGreenGadget/HeliosGreenGadget/cs.lproj/comMasterViewController_iPhone.xib; sourceTree = "<absolute>"; };
+		3492E4131589CEFD00C3BB58 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = /Users/damekjan74/Desktop/HeliosGreenGadget/HeliosGreenGadget/cs.lproj/comDetailViewController_iPhone.xib; sourceTree = "<absolute>"; };
+		3492E4141589CEFD00C3BB58 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = /Users/damekjan74/Desktop/HeliosGreenGadget/HeliosGreenGadget/cs.lproj/comDetailViewController_iPad.xib; sourceTree = "<absolute>"; };
+		3492E4151589D12100C3BB58 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		3492E4171589D43100C3BB58 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3492E4191589D47C00C3BB58 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +160,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3492E41A1589D47C00C3BB58 /* SystemConfiguration.framework in Frameworks */,
+				3492E4181589D43100C3BB58 /* CFNetwork.framework in Frameworks */,
+				3492E4161589D12100C3BB58 /* libxml2.dylib in Frameworks */,
 				3492E35D1588B5B800C3BB58 /* UIKit.framework in Frameworks */,
 				3492E35F1588B5B800C3BB58 /* Foundation.framework in Frameworks */,
 				3492E3611588B5B800C3BB58 /* CoreGraphics.framework in Frameworks */,
@@ -81,10 +193,13 @@
 		3492E35B1588B5B800C3BB58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3492E35C1588B5B800C3BB58 /* UIKit.framework */,
-				3492E35E1588B5B800C3BB58 /* Foundation.framework */,
-				3492E3601588B5B800C3BB58 /* CoreGraphics.framework */,
+				3492E4191589D47C00C3BB58 /* SystemConfiguration.framework */,
+				3492E4171589D43100C3BB58 /* CFNetwork.framework */,
 				3492E3621588B5B800C3BB58 /* CoreData.framework */,
+				3492E3601588B5B800C3BB58 /* CoreGraphics.framework */,
+				3492E35E1588B5B800C3BB58 /* Foundation.framework */,
+				3492E35C1588B5B800C3BB58 /* UIKit.framework */,
+				3492E4151589D12100C3BB58 /* libxml2.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,6 +207,7 @@
 		3492E3641588B5B800C3BB58 /* HeliosGreenGadget */ = {
 			isa = PBXGroup;
 			children = (
+				3492E38A1589C8FC00C3BB58 /* SOAP */,
 				3492E36D1588B5B800C3BB58 /* comAppDelegate.h */,
 				3492E36E1588B5B800C3BB58 /* comAppDelegate.m */,
 				3492E3731588B5B800C3BB58 /* comMasterViewController.h */,
@@ -117,6 +233,111 @@
 				3492E36C1588B5B800C3BB58 /* HeliosGreenGadget-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3492E38A1589C8FC00C3BB58 /* SOAP */ = {
+			isa = PBXGroup;
+			children = (
+				3492E3FA1589CE4700C3BB58 /* GetRedirect */,
+				3492E4011589CE4700C3BB58 /* GetService */,
+				3492E3921589C91C00C3BB58 /* Soap */,
+				3492E3AE1589C91C00C3BB58 /* TouchXML */,
+			);
+			name = SOAP;
+			sourceTree = "<group>";
+		};
+		3492E3921589C91C00C3BB58 /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				3492E3931589C91C00C3BB58 /* NSData+Base64.h */,
+				3492E3941589C91C00C3BB58 /* NSData+Base64.m */,
+				3492E3951589C91C00C3BB58 /* NSMutableArray+Soap.h */,
+				3492E3961589C91C00C3BB58 /* NSMutableArray+Soap.m */,
+				3492E3971589C91C00C3BB58 /* Soap.h */,
+				3492E3981589C91C00C3BB58 /* Soap.m */,
+				3492E3991589C91C00C3BB58 /* SoapArray.h */,
+				3492E39A1589C91C00C3BB58 /* SoapArray.m */,
+				3492E39B1589C91C00C3BB58 /* SoapDelegate.h */,
+				3492E39C1589C91C00C3BB58 /* SoapFault.h */,
+				3492E39D1589C91C00C3BB58 /* SoapFault.m */,
+				3492E39E1589C91C00C3BB58 /* SoapHandler.h */,
+				3492E39F1589C91C00C3BB58 /* SoapHandler.m */,
+				3492E3A01589C91C00C3BB58 /* SoapLiteral.h */,
+				3492E3A11589C91C00C3BB58 /* SoapLiteral.m */,
+				3492E3A21589C91C00C3BB58 /* SoapNil.h */,
+				3492E3A31589C91C00C3BB58 /* SoapNil.m */,
+				3492E3A41589C91C00C3BB58 /* SoapObject.h */,
+				3492E3A51589C91C00C3BB58 /* SoapObject.m */,
+				3492E3A61589C91C00C3BB58 /* SoapParameter.h */,
+				3492E3A71589C91C00C3BB58 /* SoapParameter.m */,
+				3492E3A81589C91C00C3BB58 /* SoapReachability.h */,
+				3492E3A91589C91C00C3BB58 /* SoapReachability.m */,
+				3492E3AA1589C91C00C3BB58 /* SoapRequest.h */,
+				3492E3AB1589C91C00C3BB58 /* SoapRequest.m */,
+				3492E3AC1589C91C00C3BB58 /* SoapService.h */,
+				3492E3AD1589C91C00C3BB58 /* SoapService.m */,
+			);
+			path = Soap;
+			sourceTree = "<group>";
+		};
+		3492E3AE1589C91C00C3BB58 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				3492E3AF1589C91C00C3BB58 /* CTidy.h */,
+				3492E3B01589C91C00C3BB58 /* CTidy.m */,
+				3492E3B11589C91C00C3BB58 /* CXHTMLDocument.h */,
+				3492E3B21589C91C00C3BB58 /* CXHTMLDocument.m */,
+				3492E3B31589C91C00C3BB58 /* CXMLDocument.h */,
+				3492E3B41589C91C00C3BB58 /* CXMLDocument.m */,
+				3492E3B51589C91C00C3BB58 /* CXMLDocument_CreationExtensions.h */,
+				3492E3B61589C91C00C3BB58 /* CXMLDocument_CreationExtensions.m */,
+				3492E3B71589C91C00C3BB58 /* CXMLDocument_PrivateExtensions.h */,
+				3492E3B81589C91C00C3BB58 /* CXMLDocument_PrivateExtensions.m */,
+				3492E3B91589C91C00C3BB58 /* CXMLElement.h */,
+				3492E3BA1589C91C00C3BB58 /* CXMLElement.m */,
+				3492E3BB1589C91C00C3BB58 /* CXMLElement_CreationExtensions.h */,
+				3492E3BC1589C91C00C3BB58 /* CXMLElement_CreationExtensions.m */,
+				3492E3BD1589C91C00C3BB58 /* CXMLElement_ElementTreeExtensions.h */,
+				3492E3BE1589C91C00C3BB58 /* CXMLElement_ElementTreeExtensions.m */,
+				3492E3BF1589C91C00C3BB58 /* CXMLNamespaceNode.h */,
+				3492E3C01589C91C00C3BB58 /* CXMLNamespaceNode.m */,
+				3492E3C11589C91C00C3BB58 /* CXMLNode.h */,
+				3492E3C21589C91C00C3BB58 /* CXMLNode.m */,
+				3492E3C31589C91C00C3BB58 /* CXMLNode_CreationExtensions.h */,
+				3492E3C41589C91C00C3BB58 /* CXMLNode_CreationExtensions.m */,
+				3492E3C51589C91C00C3BB58 /* CXMLNode_PrivateExtensions.h */,
+				3492E3C61589C91C00C3BB58 /* CXMLNode_PrivateExtensions.m */,
+				3492E3C71589C91C00C3BB58 /* CXMLNode_XPathExtensions.h */,
+				3492E3C81589C91C00C3BB58 /* CXMLNode_XPathExtensions.m */,
+				3492E3C91589C91C00C3BB58 /* TouchXML.h */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		3492E3FA1589CE4700C3BB58 /* GetRedirect */ = {
+			isa = PBXGroup;
+			children = (
+				3492E3FB1589CE4700C3BB58 /* GetRedirectData.h */,
+				3492E3FC1589CE4700C3BB58 /* GetRedirectData.m */,
+				3492E3FD1589CE4700C3BB58 /* GetRedirectServices.h */,
+				3492E3FE1589CE4700C3BB58 /* GetRedirectServices.m */,
+				3492E3FF1589CE4700C3BB58 /* Soap+Prefix.h */,
+				3492E4001589CE4700C3BB58 /* Soap+Prefix.m */,
+			);
+			path = GetRedirect;
+			sourceTree = "<group>";
+		};
+		3492E4011589CE4700C3BB58 /* GetService */ = {
+			isa = PBXGroup;
+			children = (
+				3492E4021589CE4700C3BB58 /* GetServiceServiceGate.h */,
+				3492E4031589CE4700C3BB58 /* GetServiceServiceGate.m */,
+				3492E4041589CE4700C3BB58 /* GetServiceServices.h */,
+				3492E4051589CE4700C3BB58 /* GetServiceServices.m */,
+				3492E4061589CE4700C3BB58 /* Soap+Prefix.h */,
+				3492E4071589CE4700C3BB58 /* Soap+Prefix.m */,
+			);
+			path = GetService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +411,38 @@
 				3492E3721588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodeld in Sources */,
 				3492E3751588B5B800C3BB58 /* comMasterViewController.m in Sources */,
 				3492E3781588B5B800C3BB58 /* comDetailViewController.m in Sources */,
+				3492E3CD1589C91C00C3BB58 /* NSData+Base64.m in Sources */,
+				3492E3CE1589C91C00C3BB58 /* NSMutableArray+Soap.m in Sources */,
+				3492E3CF1589C91C00C3BB58 /* Soap.m in Sources */,
+				3492E3D01589C91C00C3BB58 /* SoapArray.m in Sources */,
+				3492E3D11589C91C00C3BB58 /* SoapFault.m in Sources */,
+				3492E3D21589C91C00C3BB58 /* SoapHandler.m in Sources */,
+				3492E3D31589C91C00C3BB58 /* SoapLiteral.m in Sources */,
+				3492E3D41589C91C00C3BB58 /* SoapNil.m in Sources */,
+				3492E3D51589C91C00C3BB58 /* SoapObject.m in Sources */,
+				3492E3D61589C91C00C3BB58 /* SoapParameter.m in Sources */,
+				3492E3D71589C91C00C3BB58 /* SoapReachability.m in Sources */,
+				3492E3D81589C91C00C3BB58 /* SoapRequest.m in Sources */,
+				3492E3D91589C91C00C3BB58 /* SoapService.m in Sources */,
+				3492E3DA1589C91C00C3BB58 /* CTidy.m in Sources */,
+				3492E3DB1589C91C00C3BB58 /* CXHTMLDocument.m in Sources */,
+				3492E3DC1589C91C00C3BB58 /* CXMLDocument.m in Sources */,
+				3492E3DD1589C91C00C3BB58 /* CXMLDocument_CreationExtensions.m in Sources */,
+				3492E3DE1589C91C00C3BB58 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				3492E3DF1589C91C00C3BB58 /* CXMLElement.m in Sources */,
+				3492E3E01589C91C00C3BB58 /* CXMLElement_CreationExtensions.m in Sources */,
+				3492E3E11589C91C00C3BB58 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				3492E3E21589C91C00C3BB58 /* CXMLNamespaceNode.m in Sources */,
+				3492E3E31589C91C00C3BB58 /* CXMLNode.m in Sources */,
+				3492E3E41589C91C00C3BB58 /* CXMLNode_CreationExtensions.m in Sources */,
+				3492E3E51589C91C00C3BB58 /* CXMLNode_PrivateExtensions.m in Sources */,
+				3492E3E61589C91C00C3BB58 /* CXMLNode_XPathExtensions.m in Sources */,
+				3492E4081589CE4700C3BB58 /* GetRedirectData.m in Sources */,
+				3492E4091589CE4700C3BB58 /* GetRedirectServices.m in Sources */,
+				3492E40A1589CE4700C3BB58 /* Soap+Prefix.m in Sources */,
+				3492E40B1589CE4700C3BB58 /* GetServiceServiceGate.m in Sources */,
+				3492E40C1589CE4700C3BB58 /* GetServiceServices.m in Sources */,
+				3492E40D1589CE4700C3BB58 /* Soap+Prefix.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +453,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3492E3681588B5B800C3BB58 /* en */,
+				3492E4111589CEFD00C3BB58 /* cs */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -208,6 +462,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3492E37A1588B5B800C3BB58 /* en */,
+				3492E4121589CEFD00C3BB58 /* cs */,
 			);
 			name = comMasterViewController_iPhone.xib;
 			sourceTree = "<group>";
@@ -216,6 +471,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3492E37D1588B5B800C3BB58 /* en */,
+				3492E4101589CEFD00C3BB58 /* cs */,
 			);
 			name = comMasterViewController_iPad.xib;
 			sourceTree = "<group>";
@@ -224,6 +480,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3492E3801588B5B800C3BB58 /* en */,
+				3492E4131589CEFD00C3BB58 /* cs */,
 			);
 			name = comDetailViewController_iPhone.xib;
 			sourceTree = "<group>";
@@ -232,6 +489,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3492E3831588B5B800C3BB58 /* en */,
+				3492E4141589CEFD00C3BB58 /* cs */,
 			);
 			name = comDetailViewController_iPad.xib;
 			sourceTree = "<group>";
@@ -259,7 +517,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -278,7 +537,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
