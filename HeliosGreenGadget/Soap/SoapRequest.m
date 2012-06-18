@@ -174,7 +174,7 @@
 			}
 		}
 	} else {
-		CXMLNode* element = [[Soap getNode: [doc rootElement] withName: @"Body"] childAtIndex:0];
+		CXMLNode* element = [[Soap getNode: [doc rootElement] withName: @"soap:Body"] childAtIndex:0];
 		if(deserializeTo == nil) {
 			output = [Soap deserialize:element];
 		} else {

@@ -58,6 +58,8 @@
 		3492E4161589D12100C3BB58 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E4151589D12100C3BB58 /* libxml2.dylib */; };
 		3492E4181589D43100C3BB58 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E4171589D43100C3BB58 /* CFNetwork.framework */; };
 		3492E41A1589D47C00C3BB58 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E4191589D47C00C3BB58 /* SystemConfiguration.framework */; };
+		349F952A158D283100364644 /* GetRedirectDataExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 349F9529158D283100364644 /* GetRedirectDataExample.m */; };
+		349F952E158D283C00364644 /* GetServiceServiceGateExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 349F952D158D283C00364644 /* GetServiceServiceGateExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -158,6 +160,10 @@
 		3492E4151589D12100C3BB58 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		3492E4171589D43100C3BB58 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3492E4191589D47C00C3BB58 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		349F9528158D283100364644 /* GetRedirectDataExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetRedirectDataExample.h; sourceTree = "<group>"; };
+		349F9529158D283100364644 /* GetRedirectDataExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetRedirectDataExample.m; sourceTree = "<group>"; };
+		349F952C158D283C00364644 /* GetServiceServiceGateExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetServiceServiceGateExample.h; sourceTree = "<group>"; };
+		349F952D158D283C00364644 /* GetServiceServiceGateExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetServiceServiceGateExample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,6 +330,8 @@
 		3492E3FA1589CE4700C3BB58 /* GetRedirect */ = {
 			isa = PBXGroup;
 			children = (
+				349F9528158D283100364644 /* GetRedirectDataExample.h */,
+				349F9529158D283100364644 /* GetRedirectDataExample.m */,
 				3492E3FB1589CE4700C3BB58 /* GetRedirectData.h */,
 				3492E3FC1589CE4700C3BB58 /* GetRedirectData.m */,
 				3492E3FD1589CE4700C3BB58 /* GetRedirectServices.h */,
@@ -337,6 +345,8 @@
 		3492E4011589CE4700C3BB58 /* GetService */ = {
 			isa = PBXGroup;
 			children = (
+				349F952C158D283C00364644 /* GetServiceServiceGateExample.h */,
+				349F952D158D283C00364644 /* GetServiceServiceGateExample.m */,
 				3492E4021589CE4700C3BB58 /* GetServiceServiceGate.h */,
 				3492E4031589CE4700C3BB58 /* GetServiceServiceGate.m */,
 				3492E4041589CE4700C3BB58 /* GetServiceServices.h */,
@@ -453,6 +463,8 @@
 				3492E40B1589CE4700C3BB58 /* GetServiceServiceGate.m in Sources */,
 				3492E40C1589CE4700C3BB58 /* GetServiceServices.m in Sources */,
 				3492E40D1589CE4700C3BB58 /* Soap+Prefix.m in Sources */,
+				349F952A158D283100364644 /* GetRedirectDataExample.m in Sources */,
+				349F952E158D283C00364644 /* GetServiceServiceGateExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

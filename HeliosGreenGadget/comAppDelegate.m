@@ -20,10 +20,35 @@
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 @synthesize navigationController = _navigationController;
 @synthesize splitViewController = _splitViewController;
+@synthesize redirectSOAP = _redirectSOAP;
+@synthesize serviceSOAP =_serviceSOAP;
+@synthesize defaults = _defaults;
+@synthesize URLSOAP = _URLSOAP;
+
+- (void) onload: (id) value;
+{
+    // SOAP loading
+}
+
+-(void) getSOAP
+{
+    _serviceSOAP = [[GetServiceServiceGateExample alloc]init];
+    [_serviceSOAP run];    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    NSDictionary *userDefaultsDefaults = [NSDictionary dictionaryWithObjectsAndKeys:
+                                          @"https://open.lcs.cz/extranet42/data.asmx", @"server_url",
+                                          nil];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:userDefaultsDefaults];    
+    _defaults = [NSUserDefaults standardUserDefaults];
+    
+    _redirectSOAP = [[GetRedirectDataExample alloc]init];
+    [_redirectSOAP run];
+    
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         comMasterViewController *masterViewController = [[comMasterViewController alloc] initWithNibName:@"comMasterViewController_iPhone" bundle:nil];
@@ -84,8 +109,8 @@
     NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
-             // Replace this implementation with code to handle the error appropriately.
-             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
+            // Replace this implementation with code to handle the error appropriately.
+            // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
             NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
             abort();
         } 
