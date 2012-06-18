@@ -31,7 +31,19 @@
 -(id)initWithValue:(id)valueParam forName: (NSString*) nameValue {
 	if(self = [super init]) {
 		self.name = nameValue;
-		self.value = valueParam;
+        
+        if ([valueParam isKindOfClass:[NSString class]]){
+            NSString *stringValueParams = (NSString*)valueParam;
+            stringValueParams = [stringValueParams stringByReplacingOccurrencesOfString:@"&"  withString:@"&amp;"  options:NSLiteralSearch range:NSMakeRange(0, [stringValueParams length])];
+            stringValueParams = [stringValueParams stringByReplacingOccurrencesOfString:@"\"" withString:@"&quot;" options:NSLiteralSearch range:NSMakeRange(0, [stringValueParams length])];
+            stringValueParams = [stringValueParams stringByReplacingOccurrencesOfString:@"'"  withString:@"&#x27;" options:NSLiteralSearch range:NSMakeRange(0, [stringValueParams length])];
+            stringValueParams = [stringValueParams stringByReplacingOccurrencesOfString:@">"  withString:@"&gt;"   options:NSLiteralSearch range:NSMakeRange(0, [stringValueParams length])];
+            stringValueParams = [stringValueParams stringByReplacingOccurrencesOfString:@"<"  withString:@"&lt;"   options:NSLiteralSearch range:NSMakeRange(0, [stringValueParams length])];
+            
+            self.value = stringValueParams;
+        }else {
+            self.value = valueParam;
+        }
 	}
 	return self;
 }
