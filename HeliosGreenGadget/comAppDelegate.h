@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "GetRedirectDataExample.h"
 #import "GetServiceServiceGateExample.h"
+#import "comMasterViewController.h"
 
-@interface comAppDelegate : UIResponder <UIApplicationDelegate>
+@interface comAppDelegate : UIResponder <UIApplicationDelegate>{
+    comMasterViewController *masterViewController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
@@ -20,14 +23,15 @@
 @property (readonly, strong, nonatomic) GetRedirectDataExample *redirectSOAP;
 @property (readonly, strong, nonatomic) GetServiceServiceGateExample *serviceSOAP;
 @property (readonly, strong, nonatomic) NSUserDefaults *defaults;
+@property (readonly, strong, nonatomic) NSMutableArray *gadgetList;
 @property (readwrite) NSString *URLSOAP;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 - (void)getSOAP;
+- (void)gg_added;
 
 @property (strong, nonatomic) UINavigationController *navigationController;
-
 @property (strong, nonatomic) UISplitViewController *splitViewController;
 
 @end

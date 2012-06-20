@@ -24,6 +24,7 @@
 @synthesize serviceSOAP =_serviceSOAP;
 @synthesize defaults = _defaults;
 @synthesize URLSOAP = _URLSOAP;
+@synthesize gadgetList = _gadgetList;
 
 - (void) onload: (id) value;
 {
@@ -40,6 +41,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    _gadgetList = [[NSMutableArray alloc]init];
+    
     NSDictionary *userDefaultsDefaults = [NSDictionary dictionaryWithObjectsAndKeys:
                                           @"https://open.lcs.cz/extranet42/data.asmx", @"server_url",
                                           nil];
@@ -51,12 +54,12 @@
     
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        comMasterViewController *masterViewController = [[comMasterViewController alloc] initWithNibName:@"comMasterViewController_iPhone" bundle:nil];
+        masterViewController = [[comMasterViewController alloc] initWithNibName:@"comMasterViewController_iPhone" bundle:nil];
         self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
         self.window.rootViewController = self.navigationController;
         masterViewController.managedObjectContext = self.managedObjectContext;
     } else {
-        comMasterViewController *masterViewController = [[comMasterViewController alloc] initWithNibName:@"comMasterViewController_iPad" bundle:nil];
+        masterViewController = [[comMasterViewController alloc] initWithNibName:@"comMasterViewController_iPad" bundle:nil];
         UINavigationController *masterNavigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
         
         comDetailViewController *detailViewController = [[comDetailViewController alloc] initWithNibName:@"comDetailViewController_iPad" bundle:nil];
@@ -85,6 +88,8 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    [_serviceSOAP.service LogOff:self action:@selector(LogOffHandler:) sessionToken:_serviceSOAP.sessionToken];
+
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -155,7 +160,7 @@
         return __persistentStoreCoordinator;
     }
     
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"HeliosGreenGadget.sqlite"];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"HeliosGreenGadget1.sqlite"];
     
     NSError *error = nil;
     __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
@@ -188,6 +193,11 @@
     }    
     
     return __persistentStoreCoordinator;
+}
+
+- (void)gg_added
+{
+    [masterViewController.tableView reloadData];  
 }
 
 #pragma mark - Application's Documents directory

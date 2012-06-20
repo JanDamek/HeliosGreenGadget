@@ -7,7 +7,7 @@
 //
 
 #import "comMasterViewController.h"
-
+#import "comAppDelegate.h"
 #import "comDetailViewController.h"
 
 @interface comMasterViewController ()
@@ -37,10 +37,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+//    self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+//    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+//    self.navigationItem.rightBarButtonItem = addButton;
 }
 
 - (void)viewDidUnload
@@ -82,13 +82,16 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return [[self.fetchedResultsController sections] count];
+//    return [[self.fetchedResultsController sections] count];
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    id <NSFetchedResultsSectionInfo> sectionInfo = [[self.fetchedResultsController sections] objectAtIndex:section];
-    return [sectionInfo numberOfObjects];
+//    id <NSFetchedResultsSectionInfo> sectionInfo = [[self.fetchedResultsController sections] objectAtIndex:section];
+//    return [sectionInfo numberOfObjects];
+    comAppDelegate *d = (comAppDelegate*)[[UIApplication sharedApplication] delegate];
+    return [d.gadgetList count];
 }
 
 // Customize the appearance of table view cells.
@@ -251,8 +254,10 @@
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
 {
-    NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.textLabel.text = [[object valueForKey:@"timeStamp"] description];
+//    NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    comAppDelegate *d = (comAppDelegate*)[[UIApplication sharedApplication] delegate];
+    NSDictionary *gg = [d.gadgetList objectAtIndex:indexPath.row];
+    cell.textLabel.text = [gg valueForKey:@"name"];
 }
 
 @end

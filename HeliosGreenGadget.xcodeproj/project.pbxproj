@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		346121051591F039007B8483 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 346121041591F039007B8483 /* XMLReader.m */; };
 		3474BE181589E42300C7034B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3474BE1A1589E42300C7034B /* Localizable.strings */; };
 		3474BE1D1589E46100C7034B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3474BE1C1589E46100C7034B /* Settings.bundle */; };
 		3492E35D1588B5B800C3BB58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E35C1588B5B800C3BB58 /* UIKit.framework */; };
@@ -63,6 +64,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		346121031591F024007B8483 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		346121041591F039007B8483 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		3474BE191589E42300C7034B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3474BE1B1589E42B00C7034B /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3474BE1C1589E46100C7034B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -184,6 +187,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		346120FF1591EF91007B8483 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				346121041591F039007B8483 /* XMLReader.m */,
+				346121031591F024007B8483 /* XMLReader.h */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
 		3492E34D1588B5B800C3BB58 = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +230,7 @@
 		3492E3641588B5B800C3BB58 /* HeliosGreenGadget */ = {
 			isa = PBXGroup;
 			children = (
+				346120FF1591EF91007B8483 /* XML */,
 				3492E38A1589C8FC00C3BB58 /* SOAP */,
 				3492E36D1588B5B800C3BB58 /* comAppDelegate.h */,
 				3492E36E1588B5B800C3BB58 /* comAppDelegate.m */,
@@ -465,6 +478,7 @@
 				3492E40D1589CE4700C3BB58 /* Soap+Prefix.m in Sources */,
 				349F952A158D283100364644 /* GetRedirectDataExample.m in Sources */,
 				349F952E158D283C00364644 /* GetServiceServiceGateExample.m in Sources */,
+				346121051591F039007B8483 /* XMLReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
