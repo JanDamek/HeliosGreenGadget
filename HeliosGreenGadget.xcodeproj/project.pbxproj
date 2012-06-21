@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		346121051591F039007B8483 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 346121041591F039007B8483 /* XMLReader.m */; };
 		3461210E159300C3007B8483 /* comLogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3461210C159300C2007B8483 /* comLogonViewController.m */; };
-		34612110159300DA007B8483 /* comLogonViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34612112159300DA007B8483 /* comLogonViewController_iPhone.xib */; };
-		3461211615930435007B8483 /* comLogonViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3461211815930435007B8483 /* comLogonViewController_iPad.xib */; };
+		3461211F1593822E007B8483 /* comLogonViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346121201593822E007B8483 /* comLogonViewController_iPhone.xib */; };
+		346121211593823C007B8483 /* comLogonViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346121221593823C007B8483 /* comLogonViewController_iPad.xib */; };
+		3461212315938247007B8483 /* comMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3461212415938247007B8483 /* comMasterViewController_iPhone.xib */; };
+		3461212515938250007B8483 /* comMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3461212615938250007B8483 /* comMasterViewController_iPad.xib */; };
+		3461212715938258007B8483 /* comDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3461212815938258007B8483 /* comDetailViewController_iPhone.xib */; };
+		3461212915938260007B8483 /* comDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3461212A15938260007B8483 /* comDetailViewController_iPad.xib */; };
 		3474BE181589E42300C7034B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3474BE1A1589E42300C7034B /* Localizable.strings */; };
 		3474BE1D1589E46100C7034B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3474BE1C1589E46100C7034B /* Settings.bundle */; };
 		3492E35D1588B5B800C3BB58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E35C1588B5B800C3BB58 /* UIKit.framework */; };
@@ -22,10 +26,6 @@
 		3492E36F1588B5B800C3BB58 /* comAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E36E1588B5B800C3BB58 /* comAppDelegate.m */; };
 		3492E3751588B5B800C3BB58 /* comMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3741588B5B800C3BB58 /* comMasterViewController.m */; };
 		3492E3781588B5B800C3BB58 /* comDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3771588B5B800C3BB58 /* comDetailViewController.m */; };
-		3492E37B1588B5B800C3BB58 /* comMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E3791588B5B800C3BB58 /* comMasterViewController_iPhone.xib */; };
-		3492E37E1588B5B800C3BB58 /* comMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E37C1588B5B800C3BB58 /* comMasterViewController_iPad.xib */; };
-		3492E3811588B5B800C3BB58 /* comDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E37F1588B5B800C3BB58 /* comDetailViewController_iPhone.xib */; };
-		3492E3841588B5B800C3BB58 /* comDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E3821588B5B800C3BB58 /* comDetailViewController_iPad.xib */; };
 		3492E3CD1589C91C00C3BB58 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3941589C91C00C3BB58 /* NSData+Base64.m */; };
 		3492E3CE1589C91C00C3BB58 /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3961589C91C00C3BB58 /* NSMutableArray+Soap.m */; };
 		3492E3CF1589C91C00C3BB58 /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3981589C91C00C3BB58 /* Soap.m */; };
@@ -70,10 +70,12 @@
 		346121041591F039007B8483 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		3461210B159300C1007B8483 /* comLogonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = comLogonViewController.h; path = GetRedirect/comLogonViewController.h; sourceTree = "<group>"; };
 		3461210C159300C2007B8483 /* comLogonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = comLogonViewController.m; path = GetRedirect/comLogonViewController.m; sourceTree = "<group>"; };
-		34612111159300DA007B8483 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comLogonViewController_iPhone.xib; sourceTree = "<group>"; };
-		34612113159300E8007B8483 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = cs.lproj/comLogonViewController_iPhone.xib; sourceTree = "<group>"; };
-		3461211715930435007B8483 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comLogonViewController_iPad.xib; sourceTree = "<group>"; };
-		346121191593043B007B8483 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = cs.lproj/comLogonViewController_iPad.xib; sourceTree = "<group>"; };
+		346121201593822E007B8483 /* comLogonViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = comLogonViewController_iPhone.xib; path = GetRedirect/comLogonViewController_iPhone.xib; sourceTree = "<group>"; };
+		346121221593823C007B8483 /* comLogonViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = comLogonViewController_iPad.xib; sourceTree = "<group>"; };
+		3461212415938247007B8483 /* comMasterViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = comMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		3461212615938250007B8483 /* comMasterViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = comMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		3461212815938258007B8483 /* comDetailViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = comDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		3461212A15938260007B8483 /* comDetailViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = comDetailViewController_iPad.xib; sourceTree = "<group>"; };
 		3474BE191589E42300C7034B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3474BE1B1589E42B00C7034B /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3474BE1C1589E46100C7034B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -92,10 +94,6 @@
 		3492E3741588B5B800C3BB58 /* comMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comMasterViewController.m; sourceTree = "<group>"; };
 		3492E3761588B5B800C3BB58 /* comDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comDetailViewController.h; sourceTree = "<group>"; };
 		3492E3771588B5B800C3BB58 /* comDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comDetailViewController.m; sourceTree = "<group>"; };
-		3492E37A1588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comMasterViewController_iPhone.xib; sourceTree = "<group>"; };
-		3492E37D1588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comMasterViewController_iPad.xib; sourceTree = "<group>"; };
-		3492E3801588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comDetailViewController_iPhone.xib; sourceTree = "<group>"; };
-		3492E3831588B5B800C3BB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comDetailViewController_iPad.xib; sourceTree = "<group>"; };
 		3492E3931589C91C00C3BB58 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		3492E3941589C91C00C3BB58 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		3492E3951589C91C00C3BB58 /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
@@ -162,11 +160,7 @@
 		3492E4051589CE4700C3BB58 /* GetServiceServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetServiceServices.m; sourceTree = "<group>"; };
 		3492E4061589CE4700C3BB58 /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
 		3492E4071589CE4700C3BB58 /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
-		3492E4101589CEFD00C3BB58 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = /Users/damekjan74/Desktop/HeliosGreenGadget/HeliosGreenGadget/cs.lproj/comMasterViewController_iPad.xib; sourceTree = "<absolute>"; };
 		3492E4111589CEFD00C3BB58 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = /Users/damekjan74/Desktop/HeliosGreenGadget/HeliosGreenGadget/cs.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
-		3492E4121589CEFD00C3BB58 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = /Users/damekjan74/Desktop/HeliosGreenGadget/HeliosGreenGadget/cs.lproj/comMasterViewController_iPhone.xib; sourceTree = "<absolute>"; };
-		3492E4131589CEFD00C3BB58 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = /Users/damekjan74/Desktop/HeliosGreenGadget/HeliosGreenGadget/cs.lproj/comDetailViewController_iPhone.xib; sourceTree = "<absolute>"; };
-		3492E4141589CEFD00C3BB58 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = /Users/damekjan74/Desktop/HeliosGreenGadget/HeliosGreenGadget/cs.lproj/comDetailViewController_iPad.xib; sourceTree = "<absolute>"; };
 		3492E4151589D12100C3BB58 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		3492E4171589D43100C3BB58 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3492E4191589D47C00C3BB58 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -247,12 +241,12 @@
 				3492E3741588B5B800C3BB58 /* comMasterViewController.m */,
 				3492E3761588B5B800C3BB58 /* comDetailViewController.h */,
 				3492E3771588B5B800C3BB58 /* comDetailViewController.m */,
-				34612112159300DA007B8483 /* comLogonViewController_iPhone.xib */,
-				3461211815930435007B8483 /* comLogonViewController_iPad.xib */,
-				3492E3791588B5B800C3BB58 /* comMasterViewController_iPhone.xib */,
-				3492E37C1588B5B800C3BB58 /* comMasterViewController_iPad.xib */,
-				3492E37F1588B5B800C3BB58 /* comDetailViewController_iPhone.xib */,
-				3492E3821588B5B800C3BB58 /* comDetailViewController_iPad.xib */,
+				346121201593822E007B8483 /* comLogonViewController_iPhone.xib */,
+				346121221593823C007B8483 /* comLogonViewController_iPad.xib */,
+				3461212415938247007B8483 /* comMasterViewController_iPhone.xib */,
+				3461212615938250007B8483 /* comMasterViewController_iPad.xib */,
+				3461212815938258007B8483 /* comDetailViewController_iPhone.xib */,
+				3461212A15938260007B8483 /* comDetailViewController_iPad.xib */,
 				3492E3651588B5B800C3BB58 /* Supporting Files */,
 			);
 			path = HeliosGreenGadget;
@@ -433,14 +427,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3492E3691588B5B800C3BB58 /* InfoPlist.strings in Resources */,
-				3492E37B1588B5B800C3BB58 /* comMasterViewController_iPhone.xib in Resources */,
-				3492E37E1588B5B800C3BB58 /* comMasterViewController_iPad.xib in Resources */,
-				3492E3811588B5B800C3BB58 /* comDetailViewController_iPhone.xib in Resources */,
-				3492E3841588B5B800C3BB58 /* comDetailViewController_iPad.xib in Resources */,
+				3461212315938247007B8483 /* comMasterViewController_iPhone.xib in Resources */,
+				3461212515938250007B8483 /* comMasterViewController_iPad.xib in Resources */,
+				3461212715938258007B8483 /* comDetailViewController_iPhone.xib in Resources */,
+				3461212915938260007B8483 /* comDetailViewController_iPad.xib in Resources */,
 				3474BE181589E42300C7034B /* Localizable.strings in Resources */,
 				3474BE1D1589E46100C7034B /* Settings.bundle in Resources */,
-				34612110159300DA007B8483 /* comLogonViewController_iPhone.xib in Resources */,
-				3461211615930435007B8483 /* comLogonViewController_iPad.xib in Resources */,
+				3461211F1593822E007B8483 /* comLogonViewController_iPhone.xib in Resources */,
+				346121211593823C007B8483 /* comLogonViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,25 +491,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		34612112159300DA007B8483 /* comLogonViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34612111159300DA007B8483 /* en */,
-				34612113159300E8007B8483 /* cs */,
-			);
-			name = comLogonViewController_iPhone.xib;
-			path = GetRedirect;
-			sourceTree = "<group>";
-		};
-		3461211815930435007B8483 /* comLogonViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3461211715930435007B8483 /* en */,
-				346121191593043B007B8483 /* cs */,
-			);
-			name = comLogonViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
 		3474BE1A1589E42300C7034B /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -532,42 +507,6 @@
 				3492E4111589CEFD00C3BB58 /* cs */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3492E3791588B5B800C3BB58 /* comMasterViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3492E37A1588B5B800C3BB58 /* en */,
-				3492E4121589CEFD00C3BB58 /* cs */,
-			);
-			name = comMasterViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		3492E37C1588B5B800C3BB58 /* comMasterViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3492E37D1588B5B800C3BB58 /* en */,
-				3492E4101589CEFD00C3BB58 /* cs */,
-			);
-			name = comMasterViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		3492E37F1588B5B800C3BB58 /* comDetailViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3492E3801588B5B800C3BB58 /* en */,
-				3492E4131589CEFD00C3BB58 /* cs */,
-			);
-			name = comDetailViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		3492E3821588B5B800C3BB58 /* comDetailViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3492E3831588B5B800C3BB58 /* en */,
-				3492E4141589CEFD00C3BB58 /* cs */,
-			);
-			name = comDetailViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

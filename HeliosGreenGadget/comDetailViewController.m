@@ -20,6 +20,7 @@
 @synthesize detailItem = _detailItem;
 @synthesize detailDescriptionLabel = _detailDescriptionLabel;
 @synthesize masterPopoverController = _masterPopoverController;
+@synthesize webView = _webView;
 
 #pragma mark - Managing the detail item
 
@@ -92,6 +93,10 @@
                     html_web = [html_web stringByAppendingFormat:@"<script type=\"text/javascript\">%@</script>", js];
                 }
                 html_web = [html_web stringByAppendingFormat:@"</head><body>%@</body></html>", html];
+                
+               [_detailItem setValue:html_web forKey:@"gadget"];
+                
+                [self configureView];
 
             }
         }
@@ -104,12 +109,17 @@
     // Update the user interface for the detail item.
     
     if (self.detailItem) {
-        NSDictionary *gg = [_detailItem valueForKey:@"gadget"];
-        if ([gg count]>0){
+        NSString *gg = [_detailItem valueForKey:@"gadget"];
+        if ([gg length]>0){
             // html je nacteno zobrazit
+            [self.detailDescriptionLabel setHidden:YES];
+            [self.webView setHidden:NO];
+            [self.webView loadHTMLString:[_detailItem valueForKey:@"gadget"] baseURL:nil];
             
         }else if (!_is_loading){
             _is_loading = YES;
+            [self.detailDescriptionLabel setHidden:NO];
+            [self.webView setHidden:YES];
             self.detailDescriptionLabel.text = NSLocalizedString(@"Loadidng", nil);
             
             //[self.detailItem valueForKey:@"name"];
