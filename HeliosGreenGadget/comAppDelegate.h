@@ -16,10 +16,6 @@
 }
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (readonly, strong, nonatomic) GetRedirectDataExample *redirectSOAP;
 @property (readonly, strong, nonatomic) GetServiceServiceGateExample *serviceSOAP;
 @property (readonly, strong, nonatomic) NSUserDefaults *defaults;
@@ -30,6 +26,8 @@
 - (NSURL *)applicationDocumentsDirectory;
 - (void)getSOAP;
 - (void)gg_added;
+- (void)logon;
+- (void)do_logon;
 
 @property (strong, nonatomic) UINavigationController *navigationController;
 @property (strong, nonatomic) UISplitViewController *splitViewController;

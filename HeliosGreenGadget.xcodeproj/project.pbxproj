@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		346121051591F039007B8483 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 346121041591F039007B8483 /* XMLReader.m */; };
+		3461210E159300C3007B8483 /* comLogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3461210C159300C2007B8483 /* comLogonViewController.m */; };
+		34612110159300DA007B8483 /* comLogonViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34612112159300DA007B8483 /* comLogonViewController_iPhone.xib */; };
+		3461211615930435007B8483 /* comLogonViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3461211815930435007B8483 /* comLogonViewController_iPad.xib */; };
 		3474BE181589E42300C7034B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3474BE1A1589E42300C7034B /* Localizable.strings */; };
 		3474BE1D1589E46100C7034B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3474BE1C1589E46100C7034B /* Settings.bundle */; };
 		3492E35D1588B5B800C3BB58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492E35C1588B5B800C3BB58 /* UIKit.framework */; };
@@ -17,7 +20,6 @@
 		3492E3691588B5B800C3BB58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3492E3671588B5B800C3BB58 /* InfoPlist.strings */; };
 		3492E36B1588B5B800C3BB58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E36A1588B5B800C3BB58 /* main.m */; };
 		3492E36F1588B5B800C3BB58 /* comAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E36E1588B5B800C3BB58 /* comAppDelegate.m */; };
-		3492E3721588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3701588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodeld */; };
 		3492E3751588B5B800C3BB58 /* comMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3741588B5B800C3BB58 /* comMasterViewController.m */; };
 		3492E3781588B5B800C3BB58 /* comDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3492E3771588B5B800C3BB58 /* comDetailViewController.m */; };
 		3492E37B1588B5B800C3BB58 /* comMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3492E3791588B5B800C3BB58 /* comMasterViewController_iPhone.xib */; };
@@ -66,6 +68,12 @@
 /* Begin PBXFileReference section */
 		346121031591F024007B8483 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
 		346121041591F039007B8483 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		3461210B159300C1007B8483 /* comLogonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = comLogonViewController.h; path = GetRedirect/comLogonViewController.h; sourceTree = "<group>"; };
+		3461210C159300C2007B8483 /* comLogonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = comLogonViewController.m; path = GetRedirect/comLogonViewController.m; sourceTree = "<group>"; };
+		34612111159300DA007B8483 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comLogonViewController_iPhone.xib; sourceTree = "<group>"; };
+		34612113159300E8007B8483 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = cs.lproj/comLogonViewController_iPhone.xib; sourceTree = "<group>"; };
+		3461211715930435007B8483 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comLogonViewController_iPad.xib; sourceTree = "<group>"; };
+		346121191593043B007B8483 /* cs */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cs; path = cs.lproj/comLogonViewController_iPad.xib; sourceTree = "<group>"; };
 		3474BE191589E42300C7034B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3474BE1B1589E42B00C7034B /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3474BE1C1589E46100C7034B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -80,7 +88,6 @@
 		3492E36C1588B5B800C3BB58 /* HeliosGreenGadget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeliosGreenGadget-Prefix.pch"; sourceTree = "<group>"; };
 		3492E36D1588B5B800C3BB58 /* comAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comAppDelegate.h; sourceTree = "<group>"; };
 		3492E36E1588B5B800C3BB58 /* comAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comAppDelegate.m; sourceTree = "<group>"; };
-		3492E3711588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeliosGreenGadget.xcdatamodel; sourceTree = "<group>"; };
 		3492E3731588B5B800C3BB58 /* comMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comMasterViewController.h; sourceTree = "<group>"; };
 		3492E3741588B5B800C3BB58 /* comMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comMasterViewController.m; sourceTree = "<group>"; };
 		3492E3761588B5B800C3BB58 /* comDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comDetailViewController.h; sourceTree = "<group>"; };
@@ -234,15 +241,18 @@
 				3492E38A1589C8FC00C3BB58 /* SOAP */,
 				3492E36D1588B5B800C3BB58 /* comAppDelegate.h */,
 				3492E36E1588B5B800C3BB58 /* comAppDelegate.m */,
+				3461210B159300C1007B8483 /* comLogonViewController.h */,
+				3461210C159300C2007B8483 /* comLogonViewController.m */,
 				3492E3731588B5B800C3BB58 /* comMasterViewController.h */,
 				3492E3741588B5B800C3BB58 /* comMasterViewController.m */,
 				3492E3761588B5B800C3BB58 /* comDetailViewController.h */,
 				3492E3771588B5B800C3BB58 /* comDetailViewController.m */,
+				34612112159300DA007B8483 /* comLogonViewController_iPhone.xib */,
+				3461211815930435007B8483 /* comLogonViewController_iPad.xib */,
 				3492E3791588B5B800C3BB58 /* comMasterViewController_iPhone.xib */,
 				3492E37C1588B5B800C3BB58 /* comMasterViewController_iPad.xib */,
 				3492E37F1588B5B800C3BB58 /* comDetailViewController_iPhone.xib */,
 				3492E3821588B5B800C3BB58 /* comDetailViewController_iPad.xib */,
-				3492E3701588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodeld */,
 				3492E3651588B5B800C3BB58 /* Supporting Files */,
 			);
 			path = HeliosGreenGadget;
@@ -429,6 +439,8 @@
 				3492E3841588B5B800C3BB58 /* comDetailViewController_iPad.xib in Resources */,
 				3474BE181589E42300C7034B /* Localizable.strings in Resources */,
 				3474BE1D1589E46100C7034B /* Settings.bundle in Resources */,
+				34612110159300DA007B8483 /* comLogonViewController_iPhone.xib in Resources */,
+				3461211615930435007B8483 /* comLogonViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +453,6 @@
 			files = (
 				3492E36B1588B5B800C3BB58 /* main.m in Sources */,
 				3492E36F1588B5B800C3BB58 /* comAppDelegate.m in Sources */,
-				3492E3721588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodeld in Sources */,
 				3492E3751588B5B800C3BB58 /* comMasterViewController.m in Sources */,
 				3492E3781588B5B800C3BB58 /* comDetailViewController.m in Sources */,
 				3492E3CD1589C91C00C3BB58 /* NSData+Base64.m in Sources */,
@@ -479,12 +490,32 @@
 				349F952A158D283100364644 /* GetRedirectDataExample.m in Sources */,
 				349F952E158D283C00364644 /* GetServiceServiceGateExample.m in Sources */,
 				346121051591F039007B8483 /* XMLReader.m in Sources */,
+				3461210E159300C3007B8483 /* comLogonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		34612112159300DA007B8483 /* comLogonViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34612111159300DA007B8483 /* en */,
+				34612113159300E8007B8483 /* cs */,
+			);
+			name = comLogonViewController_iPhone.xib;
+			path = GetRedirect;
+			sourceTree = "<group>";
+		};
+		3461211815930435007B8483 /* comLogonViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3461211715930435007B8483 /* en */,
+				346121191593043B007B8483 /* cs */,
+			);
+			name = comLogonViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
 		3474BE1A1589E42300C7034B /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -635,19 +666,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3492E3701588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3492E3711588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodel */,
-			);
-			currentVersion = 3492E3711588B5B800C3BB58 /* HeliosGreenGadget.xcdatamodel */;
-			path = HeliosGreenGadget.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3492E34F1588B5B800C3BB58 /* Project object */;
 }

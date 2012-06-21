@@ -10,4 +10,6 @@
 
 @interface comLogonViewController : UIViewController
 
+- (IBAction) logon_touch:(id)sender; 
+
 @end

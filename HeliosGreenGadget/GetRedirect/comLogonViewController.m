@@ -7,6 +7,7 @@
 //
 
 #import "comLogonViewController.h"
+#import "comAppDelegate.h"
 
 @interface comLogonViewController ()
 
@@ -39,6 +40,13 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (IBAction) logon_touch:(id)sender
+{
+    [d do_logon];
+    [self dismissModalViewControllerAnimated:YES];
+        
 }
 
 @end
