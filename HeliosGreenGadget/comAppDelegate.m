@@ -87,6 +87,7 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    [self do_logon];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
@@ -132,7 +133,7 @@
     }else {
         login = [[comLogonViewController alloc]initWithNibName:@"comLogonViewController_iPad" bundle:nil];
     }
-    [[self navigationController]pushViewController:login animated:YES];
+    [[self navigationController] presentModalViewController:login animated:YES];
 }
 
 - (void) do_logon

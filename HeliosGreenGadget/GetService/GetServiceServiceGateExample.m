@@ -104,9 +104,11 @@
         if ([_sessionToken hasPrefix:@"ERROR:"]){
             NSLog(@"LogOn returned the ERROR value: %@", result);
             comAppDelegate *d = (comAppDelegate*)[[UIApplication sharedApplication] delegate];
+            _sessionToken = @"";
             [d logon];
         }
         else {
+            
             
             // zadost o seznam gadgetu 
             NSString *string = @"<RUN FUNCTIONID=\"5608\"></RUN>";
