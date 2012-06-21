@@ -6,4 +6,5 @@
   Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 */
 "Master" = "Gadgets list";
-"Detail" = "Gadget"; 
+"Detail" = "Gadget";
+"Loadidng" = "Loading gadget data ...";

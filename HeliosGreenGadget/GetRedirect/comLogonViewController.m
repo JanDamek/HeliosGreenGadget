@@ -44,6 +44,7 @@
 
 - (IBAction) logon_touch:(id)sender
 {
+    comAppDelegate *d = (comAppDelegate*)[[UIApplication sharedApplication] delegate];
     [d do_logon];
     [self dismissModalViewControllerAnimated:YES];
         

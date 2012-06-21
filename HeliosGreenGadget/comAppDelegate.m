@@ -41,6 +41,7 @@
     [[NSUserDefaults standardUserDefaults] registerDefaults:userDefaultsDefaults];    
     _defaults = [NSUserDefaults standardUserDefaults];
     
+    _redirectSOAP = [[GetRedirectDataExample alloc]init];
     [self do_logon];
     
     // Override point for customization after application launch.

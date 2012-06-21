@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface comDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface comDetailViewController : UIViewController <UISplitViewControllerDelegate>{
+    bool _is_loading;
+}
 
 @property (strong, nonatomic) id detailItem;
 
